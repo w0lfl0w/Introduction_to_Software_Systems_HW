@@ -1,0 +1,9 @@
+a. Doing so by hand would probably take a few days. (assuming we cannot use any kind of computational assistance to solve the problem)
+
+b. From this assignment, we learned that linux and Bash can be very versatile, and used in an easier manner than other coding languages.
+We think that this kind of assignment can be modified in order to solve data analysis problem, for web crawling tools and for information gathering.
+
+c. In order to repeat this action every hour, we would use the results.csv file as a list of already scanned urls and add to each url a field of
+"last time modified". Then, every hour, we would scan the root page for new urls and newly modified urls we scanned earlier. That way we would minimize
+the amount of times we download and scan each page and therefore decreasing the average running time of the code. In order to automize the action, 
+we would use the cron function to activate the program each hour.
